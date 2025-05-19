@@ -16,14 +16,17 @@
 │   ├── report.pdf
 │   └── ...
 ├── site/
+│   ├── about.html
 │   ├── index.html
-│   ├── css/
-│   │   └── style.css
-│   └── images/
-│       └── logo.png
+│   └── journal.html
+│   └── rsrc.html
+│   ├── style.css
 ├── src/
-│   ├── main.py
-│   └── ...
+│   ├── img/
+│   |   ├──1040237.png
+│   |   ├──architecture.png
+│   ├── README.md
+│   ├── bot.py
 ├── task/
 │   ├── README.md
 │   └── report_template.md
