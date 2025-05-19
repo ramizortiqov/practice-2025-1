@@ -102,7 +102,7 @@ if __name__ == '__main__':
 ```
 ### Иллюстрации
 ## Архитектура бота
-<img src="images/architecture.png" alt="Архитектура Telegram-бота" width="500"/>
+<img src="img/architecture.png" alt="Архитектура Telegram-бота" width="500"/>
 
 ## Логотип бота
 <img src="img/1040237.png" alt="Архитектура Telegram-бота" width="200"/>
