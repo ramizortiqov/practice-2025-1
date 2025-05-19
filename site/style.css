@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 1rem;
+    background: #f0f0f0;
+    color: #333;
+  }
+  
+  header, footer {
+    background: #003366;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  nav a {
+    color: #cceeff;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  main {
+    background: white;
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 8px;
+  }
+  .main{
+    height: 500px;
+  }
+  .kaiten{
+    width:50%;
+
+  }
+  .back{
+    width: 100%
+  }
