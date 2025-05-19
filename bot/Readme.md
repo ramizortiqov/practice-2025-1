@@ -129,7 +129,7 @@ if __name__ == '__main__':
 <img src="img/architecture.png" alt="Архитектура Telegram-бота" width="500"/>
 
 ## Логотип бота
-<img src="img/1040237.png" alt="Архитектура Telegram-бота" width="200"/>
+<img src="img/1040237.png" alt="Лого" width="200"/>
 
 ### Структура Git-репозитория
 ```plaintext
@@ -138,6 +138,7 @@ bot/
 ├── README.md            # Это описание
 ├── bot.py               # Основной код бота
 ├── img/              # Папка с иллюстрациями
-│   ├── 1040237.png    #Logo
+│   ├── 1040237.png    #Логотип
+│   ├── architecture.png   #Архитектура Telegram-бота
 ```
 
