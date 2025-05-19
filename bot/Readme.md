@@ -66,7 +66,31 @@ import aiohttp
 import datetime
 ```
 ### Подключение API погоды и валют
+Функции для запросов к API
+```python
+async def fetch_weather(city: str) -> str:
+    url = f"http://api.openweathermap.org/data/2.5/forecast?q={city}&appid={WEATHER_API_KEY}&units=metric&lang=ru"
+    async with aiohttp.ClientSession() as session:
+        async with session.get(url) as response:
+            data = await response.json()
+            # Обработка данных
+            return f"Погода в городе {city}: {data['list'][0]['weather'][0]['description']}, температура {data['list'][0]['main']['temp']}°C"
+```
+Аналогично создайте функцию для получения курса валют.
+
 ### Обработка команд и сообщений
+Обработка нажатий на кнопки
+```pyhton
+async def button_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    query = update.callback_query
+    await query.answer()
+    if query.data == 'weather':
+        await query.message.reply_text("Введите название города для получения погоды:")
+        return ASK_CITY
+    elif query.data == 'exchange':
+        await query.message.reply_text("Введите валютную пару (например, USD/RUB):")
+        return ASK_CITY
+```
 
 ### Примеры кода
 Навигации кнопок
