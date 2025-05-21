@@ -13,7 +13,7 @@
 
 ## Вариативная часть задания
 
-Практическая реализация технологии: Создание своего телеграм бота. (https://www.freecodecamp.org/news/how-to-create-a-telegram-bot-using-python)
+Практическая реализация технологии: Создание своего телеграм бота.](https://www.freecodecamp.org/news/how-to-create-a-telegram-bot-using-python)
 
 ## Ответственный по проектной (учебной) практике
 Чернова Вера Михайловна
